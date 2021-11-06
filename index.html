@@ -12,14 +12,14 @@
   <header class="header">
     <div class="logo logo_place_header"></div>
     <h1 class="header__title">Learning How to Learn</h1>
-    <h2 class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life.
-      <a href="#" class="header__link">Learn more &#8594;</a></h2>
+    <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life.
+      <a href="#" class="header__link">Learn more &#8594;</a></p>
     <img src="./images/header-image.png" alt="main illustration" class="header__main-illustration">
     <div class="header__square"></div>
   </header>
   <main class="content">
     <section class="description">
-      <div class="two-columns">
+      <article class="two-columns">
         <h2 class="two-columns__brief">The main problem with education</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">Whether it's at school or university, the one thing no one ever teaches you
@@ -38,12 +38,12 @@
             secrets of effective learning.
           </p>
         </div>
-      </div>
+      </article>
     </section>
 
     <section class="digits">
       <h2 class="section-title">Facts and figures</h2>
-      <h3 class="section-subtitle">On learning and the brain</h3>
+      <p class="section-subtitle">On learning and the brain</p>
       <ul class="table">
         <li class="table__cell table__cell_theme_white">
           <h4 class="table__heading">86 billion</h4>
@@ -53,7 +53,7 @@
           <h4 class="table__heading">73%</h4>
           <p class="table__text">The percentage of adults in the US who consider themselves lifelong learners
           </p>
-          <p class="table__text">Pew Research Center</p>
+          <p class="table__text table__text_last_paragraph">Pew Research Center</p>
         </li>
         <li class="table__cell table__cell_theme_white">
           <h4 class="table__heading">1,000 terabytes</h4>
@@ -67,7 +67,7 @@
           <h4 class="table__heading">420 million</h4>
           <p class="table__text">The number of adults under 25 with insufficient education for finding employment
           </p>
-          <p class="table__text">World Bank, 2017</p>
+          <p class="table__text table__text_last_paragraph">World Bank, 2017</p>
         </li>
         <li class="table__cell table__cell_theme_white">
           <h4 class="table__heading">26 years old</h4>
@@ -87,14 +87,14 @@
 
     <section class="feynman">
       <h2 class="feynman__title">The Feynman Technique</h2>
-      <h3 class="feynman__subtitle">Learn without forgetting</h3>
+      <p class="feynman__subtitle">Learn without forgetting</p>
       <a href="#" class="feynman__link">More &#8594;</a>
 
     </section>
 
     <section class="kaufman">
       <h2 class="section-title section-title_theme_dark">Ten principles of rapid skill acquisition</h2>
-      <h3 class="section-subtitle section-subtitle_theme_dark">by Josh Kaufman</h3>
+      <p class="section-subtitle section-subtitle_theme_dark">by Josh Kaufman</p>
       <ul class="table table_theme_dark">
         <li class="table__cell table__cell_theme_dark">
           <h4 class="table__heading theme_dark">1</h4>
@@ -139,7 +139,7 @@
           <p class="table__text table__text_theme_dark">Emphasize quantity and speed</p>
         </li>
       </ul>
-      <img src="./images/kaufman-triangle.svg" alt="big blue triangle" class="kaufman__triangle">
+      <div class="kaufman__triangle"></div>
     </section>
   </main>
 
@@ -149,32 +149,33 @@
         <div class="logo logo_place_footer"></div>
         <p class="footer__author">&copy; 2021 Avi Stepovyi</p>
       </div>
-      <div class="footer__column_content_about">
-        <h4 class="footer__column-heading">About Practicum by Yandex </h4>
-        <ul class="footer__list">
-          <li>
-            <a href="#" class="footer__list_link">Home page </a>
-          </li>
-          <li>
-            <a href="#" class="footer__list_link">Mission</a>
-          </li>
-          <li>
-            <a href="#" class="footer__list_link">Professions</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__column_content_social">
-        <h4 class="footer__column-heading">Social media</h4>
-        <ul class="footer__list">
-          <li>
-            <a href="#" class="footer__list_link"><img class="footer__list_image" src="./images/facebook_white.svg" alt="facebook logo">Facebook</a>
-          </li>
-          <li>
-            <a href="#" class="footer__list_link"><img class="footer__list_image" src="./images/instagram_white.svg" alt="instagram logo">Instagram
-          </a>
-          </li>
-
-        </ul>
+      <div class="footer__column_column_right">
+        <nav class="footer__column_content_about">
+          <h4 class="footer__column-heading">About Practicum by Yandex </h4>
+          <ul class="footer__list">
+            <li>
+              <a href="#" class="footer__link">Home page </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Mission</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Professions</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__column_content_social">
+          <h4 class="footer__column-heading">Social media</h4>
+          <ul class="footer__list">
+            <li>
+              <a href="#" class="footer__link"><img class="footer__image" src="./images/facebook_white.svg" alt="facebook logo">Facebook</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link"><img class="footer__image" src="./images/instagram_white.svg" alt="instagram logo">Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
